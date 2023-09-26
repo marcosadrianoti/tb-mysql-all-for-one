@@ -52,40 +52,17 @@ cd meu-diretorio
 Clone o projeto com o comando `git clone`:
 
 ```bash
-git clone git@github.com:marcosadrianoti/tb-starwars-planets-search.git
+git clone git@github.com:marcosadrianoti/tb-mysql-all-for-one.git
 ```
 
 Acesse o diretório do projeto com o comando `cd`:
 
 ```bash
-cd tb-starwars-planets-search
+cd tb-mysql-all-for-one
 ```
 
-Instale as dependências executando:
+Abra o `MySQL Workbench`:
 
-```bash
-npm install
-```
+Execute o arquivo `northwind.sql` no `MySQL Workbench` para gerar o Banco de Dados.
 
-Execute a aplicação:
-
-```bash
-npm run start
-```
-
-Para executar os testes:
-
-```bash
-npm run test
-```
-
-Para executar os testes de cobertura:
-
-```bash
-npm run test-coverage
-```
-Para executar os testes com o Cypress:
-
-```bash
-npm run cy:open
-```
+A seguir pode executar os arquivos `desafioXX.sql` para observar as mudanças no Banco de Dados.
